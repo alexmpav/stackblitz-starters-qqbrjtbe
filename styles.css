@@ -1,0 +1,96 @@
+/* ============================
+   BLOOM VALLEY NURSERY STYLES
+   ============================ */
+
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, Arial, sans-serif;
+  background-color: #E0D2BD; /* Rivulet Beige */
+  color: #00231C; /* Detritus Green */
+}
+
+a {
+  text-decoration: none;
+  color: #00231C;
+}
+
+/* ============================
+   HEADER
+   ============================ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 2px solid #4B4A1E; /* Olive Green */
+}
+
+.logo img {https://cdn2.sophia.org/markup_pictures/38735/file/a2ebca9a2e4d115acb514c075c2b4856.png
+  height: 60px;
+  width: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: Comfortaa, sans-serif;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color: #9D352E; /* Autumn Leaf */
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 2px solid #4B4A1E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Calibri, sans-serif;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-search {
+  display: flex;
+  gap: 4px;
+}
+
+.footer-search input {
+  padding: 6px 8px;
+  border: 1px solid #4B4A1E;
+  min-width: 160px;
+}
+
+.footer-search button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #4B4A1E;
+  color: #E0D2BD;
+  cursor: pointer;
+  font-family: Comfortaa, sans-serif;
+}
+
+/* ============================
+   SHARED PAGE ELEMENTS
+   ============================ */
+h
